@@ -5,14 +5,14 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "major"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
       "automerge": true,
       "automergeType": "branch",
       "prCreation": "not-pending",
-      "stabilityDays": 2
+      "stabilityDays": 2,
+      "requiredStatusChecks": null,
+      "prHourlyLimit": 100,
+      "platformAutomerge": true
     }
-  ],
-  "requiredStatusChecks": null,
-  "prHourlyLimit": 10,
-  "platformAutomerge": true
+  ]
 }
