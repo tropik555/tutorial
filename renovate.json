@@ -13,5 +13,6 @@
       "stabilityDays": 2
     }
   ],
+  "prHourlyLimit": 5,
   "platformAutomerge": true
 }
