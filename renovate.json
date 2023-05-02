@@ -8,11 +8,11 @@
       "matchUpdateTypes": ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
       "automerge": true,
       "automergeType": "branch",
-      "prCreation": "not-pending",
-      "stabilityDays": 2,
-      "requiredStatusChecks": null,
-      "prHourlyLimit": 100,
-      "platformAutomerge": true
+      "prCreation": "not-pending"
     }
-  ]
+  ],
+  "stabilityDays": 2,
+  "requiredStatusChecks": null,
+  "prHourlyLimit": 100,
+  "platformAutomerge": true
 }
