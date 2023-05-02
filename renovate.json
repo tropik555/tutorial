@@ -8,11 +8,11 @@
       "matchUpdateTypes": ["minor", "patch", "pin", "major"],
       "automerge": true,
       "automergeType": "branch",
-      "requiredStatusChecks": null,
       "prCreation": "not-pending",
       "stabilityDays": 2
     }
   ],
-  "prHourlyLimit": 5,
+  "requiredStatusChecks": null,
+  "prHourlyLimit": 10,
   "platformAutomerge": true
 }
