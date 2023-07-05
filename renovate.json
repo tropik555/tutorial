@@ -13,9 +13,17 @@
     {
       "matchPackagePatterns": ["org.springframework.boot:spring-boot-starter-web"],
       "enabled": false
+    },
+    {
+      "matchDepTypes": ["org.hibernate"],
+      "prPriority": 5
+    },
+    {
+      "matchDepTypes": ["org.springframework.boot"],
+      "prPriority": 6
     }
   ],
+  "prHourlyLimit": 3,
   "requiredStatusChecks": null,
-  "prHourlyLimit": 100,
   "platformAutomerge": true
 }
