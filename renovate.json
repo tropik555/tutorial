@@ -15,8 +15,6 @@
       "enabled": false
     }
   ],
-  "stabilityDays": 2,
-  "requiredStatusChecks": null,
   "prHourlyLimit": 100,
   "platformAutomerge": true
 }
