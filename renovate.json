@@ -9,6 +9,10 @@
       "automerge": true,
       "automergeType": "branch",
       "prCreation": "not-pending"
+    },
+    {
+      "matchPackagePatterns": ["org.springframework.boot:spring-boot-starter-web"],
+      "enabled": false
     }
   ],
   "stabilityDays": 2,
