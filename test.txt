@@ -8,17 +8,10 @@
   "prCreation": "not-pending",
   "packageRules": [
     {
-      "matchPackagePatterns": ["junit"],
-      "prPriority": 4
-    },
-    {
-      "matchPackagePatterns": ["org.mockito"],
-      "prPriority": 5
-    },
-    {
       "matchPackagePatterns": ["org.springframework.boot"],
-      "prPriority": 6
+      "enabled": false
     }
+
   ],
   "prHourlyLimit": 3,
   "requiredStatusChecks": null,
