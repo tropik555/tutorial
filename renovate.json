@@ -8,20 +8,10 @@
       "matchUpdateTypes": ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
       "automerge": true,
       "automergeType": "branch",
-      "prCreation": "not-pending"
-    },
-    {
-      "matchPackagePatterns": ["org.springframework.boot:spring-boot-starter-web"],
-      "enabled": false
-    },
-    {
-      "matchDepTypes": ["org.hibernate"],
-      "prPriority": 5
-    },
-    {
-      "matchDepTypes": ["org.springframework.boot"],
-      "prPriority": 6
+      "prCreation": "not-pending",
+      "excludePackagePrefixes": ["org.springframework.boot"]
     }
+
   ],
   "prHourlyLimit": 3,
   "requiredStatusChecks": null,
