@@ -8,11 +8,7 @@
   "prCreation": "not-pending",
   "packageRules": [
     {
-      "matchPackagePatterns": ["org.mockito"],
-      "prPriority": 5
-    },
-    {
-      "matchPackagePatterns": ["junit"],
+      "matchPackagePatterns": ["junit", "org.mockito"],
       "prPriority": 6
     }
   ],
