@@ -6,12 +6,6 @@
   "automerge": true,
   "automergeType": "branch",
   "prCreation": "not-pending",
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["junit", "org.mockito"],
-      "prPriority": 6
-    }
-  ],
   "prHourlyLimit": 100,
   "prConcurrentLimit" : 10,
   "requiredStatusChecks": null,
