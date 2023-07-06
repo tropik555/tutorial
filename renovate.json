@@ -3,12 +3,11 @@
   "extends": [
     "config:base"
   ],
+  "automerge": true,
+  "automergeType": "branch",
+  "prCreation": "not-pending",
   "packageRules": [
     {
-      "matchUpdateTypes": ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
-      "automerge": true,
-      "automergeType": "branch",
-      "prCreation": "not-pending",
       "excludePackagePrefixes": ["org.springframework.boot"],
       "requiredStatusChecks": null
     }
