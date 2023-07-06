@@ -14,15 +14,15 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["commander"],
-      "prLimit": 4
+      "prPriority": 4
     },
     {
       "matchPackagePatterns": ["@date-io/date-fns", "@date-io/moment"],
-      "prLimit": 5
+      "prPriority": 5
     },
     {
       "matchPackagePatterns": ["docker"],
-      "prLimit": 6
+      "prPriority": 6
     }
 
   ]
