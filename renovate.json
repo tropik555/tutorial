@@ -9,5 +9,6 @@
   "prHourlyLimit": 100,
   "prConcurrentLimit" : 10,
   "requiredStatusChecks": null,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "internalChecksAsSuccess": true
 }
