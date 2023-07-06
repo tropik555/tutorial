@@ -10,5 +10,20 @@
   "prConcurrentLimit" : 10,
   "requiredStatusChecks": null,
   "platformAutomerge": true,
-  "internalChecksAsSuccess": true
+  "internalChecksAsSuccess": true,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["commander"],
+      "prLimit": 4
+    },
+    {
+      "matchPackagePatterns": ["@date-io/date-fns", "@date-io/moment"],
+      "prLimit": 5
+    },
+    {
+      "matchPackagePatterns": ["docker"],
+      "prLimit": 6
+    }
+
+  ]
 }
