@@ -8,7 +8,7 @@
   "prCreation": "not-pending",
   "packageRules": [
     {
-      "excludePackagePrefixes": ["org.springframework.boot"],
+      "excludePackageNames": ["org.springframework.boot"],
       "requiredStatusChecks": null
     }
 
