@@ -20,7 +20,7 @@
       "prPriority": 6
     }
   ],
-  "prHourlyLimit": 3,
+  "prHourlyLimit": 10,
   "requiredStatusChecks": null,
   "platformAutomerge": true
 }
