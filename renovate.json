@@ -13,8 +13,12 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchPackagePatterns": ["org.springframework.boot", "org.mockito"],
-      "enabled": false
+      "matchPackagePatterns": ["mockito-core.version"],
+      "prPriority": 5
+    },
+    {
+      "matchPackagePatterns": ["org.springframework.boot"],
+      "prPriority": 6
     }
   ]
 }
