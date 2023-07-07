@@ -13,7 +13,7 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchPackagePatterns": ["org.springframework.boot", "org.mockito:mockito-core"],
+      "matchPackagePatterns": ["org.springframework.boot", "org.mockito"],
       "enabled": false
     }
   ]
