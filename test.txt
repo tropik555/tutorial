@@ -34,4 +34,11 @@
       "matchPackagePatterns": ["docker"],
       "prPriority": 6
     }
-  ]fffv
+  ]
+
+  "packageRules": [
+      {
+        "matchPackageNames": ["org.springframework.boot:spring-boot-starter-data-jpa","org.mockito:mockito-core"],
+        "enabled": false
+      }
+    ]
