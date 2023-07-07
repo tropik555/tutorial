@@ -13,7 +13,7 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchPackageNames": ["org.springframework.boot","org.mockito"],
+      "matchPackageNames": ["org.springframework.boot:spring-boot-starter-data-jpa","org.mockito:mockito-core"],
       "enabled": false
     }
   ]
