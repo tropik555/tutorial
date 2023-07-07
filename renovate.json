@@ -13,17 +13,8 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchPackagePatterns": ["commander"],
-      "prPriority": 4
-    },
-    {
-      "matchPackagePatterns": ["@date-io/date-fns", "@date-io/moment"],
-      "prPriority": 5
-    },
-    {
-      "matchPackagePatterns": ["docker"],
-      "prPriority": 6
+      "matchPackageNames": ["org.springframework.boot","org.mockito"],
+      "enabled": false
     }
-
   ]
 }
