@@ -14,11 +14,10 @@
   "packageRules": [
     {
       "matchPackageNames": ["org.springframework.boot:spring-boot-starter-data-jpa"],
-      "prPriority": 5
+      "prPriority": 4
     },
     {
-      "matchPackagePatterns": ["org.mockito"],
-      "prPriority": 5
+      "excludePackageNames": ["org.mockito"]
     },
     {
       "matchPackagePatterns": ["junit"],
