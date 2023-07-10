@@ -13,15 +13,13 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchPackageNames": ["org.springframework.boot:spring-boot-starter-data-jpa"],
-      "prPriority": 4
-    },
-    {
-      "excludePackageNames": ["org.mockito"]
+      "matchPackagePatterns": ["org.mockito"],
+      "prPriority": 5
     },
     {
       "matchPackagePatterns": ["junit"],
       "prPriority": 6
     }
-  ]
+  ],
+  "ignoreDeps": ["org.springframework.boot"]
 }
