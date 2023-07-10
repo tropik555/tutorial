@@ -13,11 +13,11 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchPackagePatterns": ["mockito-core.version"],
+      "matchPackagePatterns": ["org.mockito"],
       "prPriority": 5
     },
     {
-      "matchPackagePatterns": ["org.springframework.boot"],
+      "matchPackagePatterns": ["junit"],
       "prPriority": 6
     }
   ]
