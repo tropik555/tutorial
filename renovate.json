@@ -19,6 +19,10 @@
     {
       "matchPackagePatterns": ["junit"],
       "prPriority": 6
+    },
+    {
+      "matchPackagePatterns": ["org.springframework.boot"],
+      "enabled": false
     }
   ],
   "ignoreDeps": ["org.springframework.boot"]
