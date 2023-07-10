@@ -13,6 +13,10 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
+      "matchPackageNames": ["org.springframework.boot:spring-boot-starter-data-jpa"],
+      "prPriority": 5
+    },
+    {
       "matchPackagePatterns": ["org.mockito"],
       "prPriority": 5
     },
