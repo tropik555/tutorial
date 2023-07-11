@@ -24,6 +24,4 @@
       "matchPackagePatterns": ["org.springframework.boot"],
       "enabled": false
     }
-  ],
-  "ignoreDeps": ["org.springframework.boot"]
-}
+  ]}
