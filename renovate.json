@@ -13,8 +13,8 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchBaseBranches": ["main", "/^origin\\/release\\/.*/", "3.3.2"],
+      "matchBaseBranches": ["main"],
       "matchPackagePatterns": ["org.mockito"],
-      "enabled": true
+      "enabled": false
     }
   ]}
