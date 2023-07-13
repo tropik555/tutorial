@@ -13,7 +13,7 @@
   "internalChecksAsSuccess": true,
   "packageRules": [
     {
-      "matchBaseBranches": ["main","/^release\/[3-9]{1}\.[3-9]{1}\.[2-9]{1}/"],
+      "matchBaseBranches": ["main","/^release\/[3-9]{1}\\.[3-9]{1}\\.[2-9]{1}/"],
       "matchPackagePatterns": ["org.mockito"],
       "prPriority": 5
     },
