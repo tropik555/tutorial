@@ -11,5 +11,9 @@
   "requiredStatusChecks": null,
   "platformAutomerge": true,
   "internalChecksAsSuccess": true,
-  "baseBranches": ["main","/^release\/[3-9]{1}\\.[3-9]{1}\\.[2-9]{1}/","3.3.2"]
-}
+  "packageRules": [
+    {
+      "matchBaseBranches":["main", "/^release\/[3-9]{1}\\.[3-9]{1}\\.[2-9]{1}/", "3.3.2"],
+      "matchPackagePatterns": ["org.mockito"],
+    }
+  ]}
