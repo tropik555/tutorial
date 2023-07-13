@@ -16,4 +16,5 @@
       "matchBaseBranches":["main", "/^release\/[3-9]{1}\\.[3-9]{1}\\.[2-9]{1}/", "3.3.2"],
       "matchPackagePatterns": ["org.mockito"]
     }
-  ]}
+  ]
+}
