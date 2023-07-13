@@ -20,7 +20,6 @@
     {
       "matchBaseBranches": ["/^release\/[3-9]{1}\\.[3-9]{1}\\.[2-9]{1}/", "3.3.2"],
       "matchManagers": ["maven","maven-wrapper"],
-      "enabled": false
     }
   ]
 }
